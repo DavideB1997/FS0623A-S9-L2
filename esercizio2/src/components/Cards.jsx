@@ -5,7 +5,7 @@ import books from '../Data/books.json';
 import SingleBook from './SingleBook';
 
 function Cards(props) {
-	const BookToShow = 12;
+	const BookToShow = props.cap;
 
 	return (
 		<Container>
