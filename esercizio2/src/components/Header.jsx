@@ -1,15 +1,11 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = (props) => {
 	return (
 		<header className='container-fluid p-0'>
-			<Navbar
-				collapseOnSelect
-				expand='lg'
-				className='bg-secondary'
-			>
+			<Navbar collapseOnSelect expand='lg' className='bg-secondary'>
 				<Container fluid>
 					<Navbar.Brand href='#home'>{props.titolo}</Navbar.Brand>
 					<Navbar.Toggle aria-controls='responsive-navbar-nav' />
